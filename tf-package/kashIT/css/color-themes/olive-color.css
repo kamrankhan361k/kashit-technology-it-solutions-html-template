@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+:root {
+	
+	/* #0091f7 in decimal RGB */
+  --main-color: var(--color-twelve);
+	
+}

@@ -1,0 +1,223 @@
+
+/*** 
+
+====================================================================
+	Main Footer
+====================================================================
+
+***/
+
+.main-footer{
+	position:relative;
+	background-color:var(--color-two);
+}
+
+.main-footer_title{
+	position:relative;
+	font-weight: 500;
+	color:var(--white-color);
+	font-size: var(--font-20);
+	text-transform: capitalize;
+	margin-bottom: var(--margin-bottom-20);
+}
+
+.main-footer_widgets{
+	position:relative;
+	padding:116px 0px 110px;
+}
+
+.footer-text{
+	position: relative;
+	line-height: 24px;
+	opacity: 0.70;
+	font-size: var(--font-14);
+	color: var(--white-color);
+	margin-bottom: var(--margin-bottom-25);
+}
+
+/*Subscribe Form*/
+
+.subscribe-form{
+	position:relative;
+}
+
+.subscribe-form .form-group{
+	position:relative;
+	display:block;
+	margin:0px;
+	width:100%;
+	padding-right: var(--padding-right-85);
+}
+
+.subscribe-form .form-group input[type="text"],
+.subscribe-form .form-group input[type="tel"],
+.subscribe-form .form-group input[type="email"],
+.subscribe-form .form-group textarea{
+	position:relative;
+	display:block;
+	width:100%;
+	line-height:28px;
+	height:52px;
+	font-size:14px;
+	color:var(--white-color);
+	border-radius:50px;
+	padding-right:170px;
+	background:none;
+	padding:10px 15px 10px 30px;
+	-webkit-transition:all 300ms ease;
+	-ms-transition:all 300ms ease;
+	-o-transition:all 300ms ease;
+	-moz-transition:all 300ms ease;
+	transition:all 300ms ease;
+	border: 1px solid rgba(var(--white-color-rgb), 0.10);
+}
+
+.subscribe-form .form-group input[type="submit"],
+.subscribe-form button{
+	position:absolute;
+	right:18px;
+	top:0px;
+	width:52px;
+	height:52px;
+	cursor:pointer;
+	font-weight:700;
+	background: none;
+	border-radius: 50px;
+	font-size:var(--font-20);
+	color:var(--main-color);
+	font-family: 'Font Awesome 5 Pro';
+	border: 1px solid rgba(var(--white-color-rgb), 0.10);
+}
+
+.subscribe-form .form-group input[type="submit"]:hover,
+.subscribe-form button:hover{
+	color: var(--white-color);
+	border-color: var(--main-color);
+	background-color: var(--main-color);
+}
+
+.subscribe-form.style-two .form-group input[type="submit"],
+.subscribe-form.style-two button{
+	background-color:var(--main-color);
+}
+
+.footer-privacy{
+	position: relative;
+	opacity: 0.70;
+	line-height: 28px;
+	font-size: var(--font-14);
+	color: var(--white-color);
+	margin-top: var(--margin-top-35);
+	padding-left: var(--padding-left-40);
+}
+
+.footer-privacy a{
+	position: relative;
+	color: var(--main-color);
+}
+
+.footer-privacy:before{
+	position: absolute;
+	content: '\f00c';
+	left: 0px;
+	top: 5px;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	border-radius: 50px;
+	text-align: center;
+	font-size: var(--font-10);
+	color: var(--main-color);
+	font-family: 'Font Awesome 5 Pro';
+	background-color: rgba(var(--main-color-rgb), 0.10);
+}
+
+/* Main Footer List */
+
+.main-footer_list{
+	position: relative;
+}
+
+.main-footer_list li{
+	position: relative;
+	margin-bottom: var(--margin-bottom-15);
+}
+
+.main-footer_list li a{
+	position: relative;
+	opacity: 0.70;
+	font-size: var(--font-16);
+	color: var(--white-color);
+}
+
+/* News Widget Block */
+
+.news-widget-block{
+	position:relative;
+	min-height:80px;
+	padding-left:var(--padding-left-85);
+	margin-bottom:var(--margin-bottom-25);
+}
+
+.news-widget_image{
+	position:absolute;
+	left:0px;
+	top:4px;
+	width:70px;
+	height:74px;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.news-widget_post-date{
+	position:relative;
+	letter-spacing: 0.5px;
+	font-size:var(--font-12);
+	text-transform:capitalize;
+	margin-top:var(--margin-top-5);
+	color:rgba(var(--white-color-rgb), 0.50);
+}
+
+.news-widget_title{
+	position:relative;
+	font-size:var(--font-16);
+}
+
+.news-widget_title a{
+	position:relative;
+	color:var(--white-color);
+}
+
+.news-widget_title a:hover{
+	color:var(--main-color);
+}
+
+.footer-copyright{
+	position: relative;
+	padding: 40px 0px;
+	text-align: center;
+	background-color: var(--color-eight);
+}
+
+.copyright{
+	position: relative;
+	font-size:var(--font-16);
+	color:rgba(var(--white-color-rgb), 0.70);
+}
+
+.copyright a{
+	position: relative;
+	color:var(--main-color);
+}
+
+.links-widget{
+	padding-left: 63px;
+}
+
+.links-widget.zero-padding{
+	padding-left: var(--padding-zero);
+}
+
+.news-widget{
+	padding-left: 35px;
+}
